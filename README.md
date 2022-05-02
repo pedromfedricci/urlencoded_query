@@ -8,9 +8,9 @@
 ## About
 
 A simple URL query string constructor that is able to append values to the query
-string as long as they can be serialized to *application/x-www-form-urlencoded* format.
-Serialization is provided by the [serde_urlencoded]([https://github.com/nox/serde_urlencoded]) crate.
-You can set [rust-url]([https://github.com/servo/rust-url])'s query string with provided method.
+string as long as they can be serialized to **application/x-www-form-urlencoded** format.
+Serialization is provided by the [serde_urlencoded](https://github.com/nox/serde_urlencoded) crate.
+You can set [rust-url](https://github.com/servo/rust-url)'s query string with provided method.
 
 ## Usage
 
@@ -74,8 +74,8 @@ fn main() -> Result<(), serde_urlencoded::ser::Error> {
 
 ## Documentation
 
-Currently this project is not publish at [crates.io]([https://crates.io]),
-so the documentation is not hosted at [docs.rs]([https://docs.rs]).
+Currently this project is not publish at [crates.io](https://crates.io),
+so the documentation is not hosted at [docs.rs](https://docs.rs).
 If you want to render the docs, please clone the project and run cargo doc --open.
 
 ## Code review
