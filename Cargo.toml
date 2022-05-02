@@ -1,0 +1,22 @@
+[package]
+name = "urlencoded_query"
+version = "0.1.0"
+edition = "2021"
+license = "MIT"
+rust-version = "1.56"
+description = "An URL query string builder for urlencoded serializable values"
+repository = "https://github.com/pedromfedricci/urlencoded_query"
+authors = ["Pedro de Matos Fedricci <pedromfedricci@gmail.com>"]
+categories = ["web-programming", "encoding"]
+keywords = ["querystring", "urlencoded"]
+
+[dependencies]
+form_urlencoded = { version = "1.0" }
+serde = { version = "1.0" }
+
+# public dependencies
+url = { version = "2" }
+serde_urlencoded = { version = "0.7" }
+
+[dev-dependencies]
+serde = { version = "1.0", features = ["derive"] }
